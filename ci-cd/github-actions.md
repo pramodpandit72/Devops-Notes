@@ -15,6 +15,8 @@ jobs:
       - run: echo "Hello"
 ```
 
-## Interview questions
-- What is a workflow?
-- What triggers a GitHub Actions workflow?
+## Interview questions with answers
+- Q: What is a workflow?
+  A: A YAML file that defines CI jobs and steps.
+- Q: What triggers a GitHub Actions workflow?
+  A: Events like push, pull_request, or schedule.

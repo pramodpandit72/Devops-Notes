@@ -7,6 +7,8 @@ Jenkins automates builds, tests, and deployments.
 - Jobs define tasks
 - Agents run builds
 
-## Interview questions
-- What is a Jenkins agent?
-- Why is Jenkins used in CI/CD?
+## Interview questions with answers
+- Q: What is a Jenkins agent?
+	A: A worker node that runs jobs.
+- Q: Why is Jenkins used in CI/CD?
+	A: It automates builds, tests, and deployments.

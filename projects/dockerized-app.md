@@ -10,9 +10,11 @@ Containerize a simple app and run it locally.
 4) Run the container.
 
 ## Important commands
-- `docker build -t myapp .`
-- `docker run -p 8080:8080 myapp`
+- `docker build -t myapp .` use: build the app image
+- `docker run -p 8080:8080 myapp` use: run the container
 
-## Interview questions
-- What files are required to dockerize an app?
-- How do you pass environment variables to a container?
+## Interview questions with answers
+- Q: What files are required to dockerize an app?
+	A: A `Dockerfile` and the app source code.
+- Q: How do you pass environment variables to a container?
+	A: Use `-e KEY=value` or a compose file.

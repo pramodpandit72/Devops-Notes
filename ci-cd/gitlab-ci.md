@@ -13,6 +13,8 @@ build:
     - echo "Build"
 ```
 
-## Interview questions
-- What is a GitLab runner?
-- How do stages work?
+## Interview questions with answers
+- Q: What is a GitLab runner?
+  A: The agent that executes GitLab CI jobs.
+- Q: How do stages work?
+  A: Jobs run by stage order, and later stages wait for earlier ones.

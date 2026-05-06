@@ -12,9 +12,11 @@ JSON is a common data format for APIs and configs.
 ```
 
 ## Important commands
-- `jq '.' file.json` pretty print JSON
-- `jq '.name' file.json` read a field
+- `jq '.' file.json` use: pretty print JSON
+- `jq '.name' file.json` use: read a field value
 
-## Interview questions
-- What is JSON used for?
-- How is JSON different from YAML?
+## Interview questions with answers
+- Q: What is JSON used for?
+  A: Data exchange in APIs and configuration files.
+- Q: How is JSON different from YAML?
+  A: JSON is strict and uses braces; YAML is more human-friendly.

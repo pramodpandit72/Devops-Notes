@@ -8,10 +8,12 @@ Containers communicate using networks.
 - User-defined networks allow container name resolution
 
 ## Important commands
-- `docker network ls` list networks
-- `docker network create mynet` create a network
-- `docker network inspect mynet` inspect a network
+- `docker network ls` use: list networks
+- `docker network create mynet` use: create a network
+- `docker network inspect mynet` use: inspect a network
 
-## Interview questions
-- How do containers talk to each other?
-- What is the bridge network?
+## Interview questions with answers
+- Q: How do containers talk to each other?
+	A: They use Docker networks and service names.
+- Q: What is the bridge network?
+	A: The default local network for containers on a host.

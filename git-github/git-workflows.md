@@ -8,6 +8,8 @@ A workflow is a team agreement on how to use Git.
 - GitFlow
 - Trunk-based development
 
-## Interview questions
-- What is trunk-based development?
-- What is the purpose of a pull request?
+## Interview questions with answers
+- Q: What is trunk-based development?
+	A: A workflow where most work is merged quickly into a single main branch.
+- Q: What is the purpose of a pull request?
+	A: To review, discuss, and approve changes before merging.

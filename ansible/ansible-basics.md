@@ -8,9 +8,11 @@ Ansible automates server setup using playbooks.
 - YAML-based playbooks
 
 ## Important commands
-- `ansible --version`
-- `ansible all -m ping -i hosts`
+- `ansible --version` use: show Ansible version
+- `ansible all -m ping -i hosts` use: test connectivity
 
-## Interview questions
-- What is inventory?
-- Why is Ansible agentless?
+## Interview questions with answers
+- Q: What is inventory?
+	A: A list of target hosts and groups.
+- Q: Why is Ansible agentless?
+	A: It uses SSH and does not require a client agent.

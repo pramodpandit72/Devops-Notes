@@ -18,11 +18,13 @@ done
 ```
 
 ## Important commands
-- `$?` last command exit code
-- `set -e` exit on error
-- `set -u` error on unset variables
-- `set -o pipefail` fail on pipeline errors
+- `$?` use: read the last command exit code
+- `set -e` use: exit on error
+- `set -u` use: fail on unset variables
+- `set -o pipefail` use: fail a pipeline if any command fails
 
-## Interview questions
-- What does `set -e` do?
-- How do you handle errors in a script?
+## Interview questions with answers
+- Q: What does `set -e` do?
+  A: It stops the script when a command fails.
+- Q: How do you handle errors in a script?
+  A: Check exit codes and use `set -e` plus clear logging.

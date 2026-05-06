@@ -8,6 +8,8 @@ VPC is a private network in AWS.
 - Route tables control traffic
 - Internet gateway connects to the internet
 
-## Interview questions
-- What is a subnet?
-- What is the purpose of a route table?
+## Interview questions with answers
+- Q: What is a subnet?
+	A: A smaller network segment inside a VPC.
+- Q: What is the purpose of a route table?
+	A: It decides where network traffic is sent.

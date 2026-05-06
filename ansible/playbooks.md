@@ -13,6 +13,8 @@ Playbooks define desired server state.
         state: present
 ```
 
-## Interview questions
-- What is a task in Ansible?
-- What does idempotent mean in Ansible?
+## Interview questions with answers
+- Q: What is a task in Ansible?
+  A: A single action like installing a package.
+- Q: What does idempotent mean in Ansible?
+  A: Running it multiple times yields the same state.

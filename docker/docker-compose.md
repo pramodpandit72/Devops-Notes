@@ -13,9 +13,11 @@ services:
 ```
 
 ## Important commands
-- `docker compose up -d` start services
-- `docker compose down` stop services
+- `docker compose up -d` use: start services in the background
+- `docker compose down` use: stop and remove services
 
-## Interview questions
-- When should you use Docker Compose?
-- What is a service in Compose?
+## Interview questions with answers
+- Q: When should you use Docker Compose?
+  A: For local multi-container development or testing.
+- Q: What is a service in Compose?
+  A: A container definition in the compose file.

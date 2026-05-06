@@ -7,6 +7,8 @@ SonarQube analyzes code quality and security.
 - Finds bugs, smells, and vulnerabilities
 - Provides quality gates
 
-## Interview questions
-- What is a quality gate?
-- Why use static code analysis?
+## Interview questions with answers
+- Q: What is a quality gate?
+	A: A pass/fail rule set for code quality metrics.
+- Q: Why use static code analysis?
+	A: To catch issues early without running the app.

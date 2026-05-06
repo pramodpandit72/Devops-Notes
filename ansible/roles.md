@@ -7,6 +7,8 @@ Roles organize playbooks into reusable parts.
 - Standard folder structure
 - Easier to share and maintain
 
-## Interview questions
-- Why use roles?
-- What goes into a role?
+## Interview questions with answers
+- Q: Why use roles?
+	A: To reuse and organize playbook logic.
+- Q: What goes into a role?
+	A: Tasks, handlers, templates, and vars in a standard structure.

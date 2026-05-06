@@ -12,6 +12,8 @@ Maven has default phases like compile and test.
 - `install`
 - `deploy`
 
-## Interview questions
-- What happens in the `test` phase?
-- What does `mvn install` do?
+## Interview questions with answers
+- Q: What happens in the `test` phase?
+	A: Maven runs unit tests.
+- Q: What does `mvn install` do?
+	A: It installs the built artifact into the local Maven repo.

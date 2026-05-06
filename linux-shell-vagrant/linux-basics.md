@@ -9,17 +9,20 @@ Linux is the common OS for servers and DevOps work.
 - Processes run programs.
 
 ## Important commands
-- `pwd` print current directory
-- `ls -la` list files with details
-- `cd /path` change directory
-- `mkdir name` create a folder
-- `rm -rf name` remove a file or folder (be careful)
-- `cp src dst` copy files
-- `mv src dst` move or rename
-- `cat file` show file content
-- `less file` view file page by page
+- `pwd` use: show your current directory
+- `ls -la` use: list files with details and hidden files
+- `cd /path` use: change directory
+- `mkdir name` use: create a folder
+- `rm -rf name` use: remove a file or folder (be careful)
+- `cp src dst` use: copy files or folders
+- `mv src dst` use: move or rename files
+- `cat file` use: show file content quickly
+- `less file` use: view file content page by page
 
-## Interview questions
-- What is the Linux file system layout?
-- What is the difference between `root` and a normal user?
-- How do you find your current directory?
+## Interview questions with answers
+- Q: What is the Linux file system layout?
+	A: It is a single tree that starts at `/` with common folders like `/etc`, `/var`, and `/home`.
+- Q: What is the difference between `root` and a normal user?
+	A: `root` has full admin privileges; normal users have limited permissions.
+- Q: How do you find your current directory?
+	A: Run `pwd` to print the working directory.

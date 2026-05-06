@@ -8,14 +8,16 @@ Permissions decide who can read, write, or execute a file.
 - Three permissions: read (r), write (w), execute (x)
 
 ## Important commands
-- `ls -l` view permissions
-- `chmod 644 file` set permissions
-- `chmod +x script.sh` make a script executable
-- `chown user:group file` change owner
+- `ls -l` use: view permissions on files
+- `chmod 644 file` use: set permissions (rw-r--r--)
+- `chmod +x script.sh` use: make a script executable
+- `chown user:group file` use: change file owner and group
 
 ## Example
 - `-rw-r--r--` means: user can read/write, group can read, others can read.
 
-## Interview questions
-- What does `chmod 755` mean?
-- Why is execute permission important for scripts?
+## Interview questions with answers
+- Q: What does `chmod 755` mean?
+	A: Owner can read/write/execute, group and others can read/execute.
+- Q: Why is execute permission important for scripts?
+	A: Without it, the OS will not allow running the script directly.

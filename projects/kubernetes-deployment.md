@@ -10,11 +10,13 @@ Deploy a containerized app to Kubernetes.
 4) Verify pods and service.
 
 ## Important commands
-- `kubectl apply -f deployment.yaml`
-- `kubectl apply -f service.yaml`
-- `kubectl get pods`
-- `kubectl get svc`
+- `kubectl apply -f deployment.yaml` use: create or update a deployment
+- `kubectl apply -f service.yaml` use: create or update a service
+- `kubectl get pods` use: list pods
+- `kubectl get svc` use: list services
 
-## Interview questions
-- What does `kubectl apply` do?
-- How do you expose a service?
+## Interview questions with answers
+- Q: What does `kubectl apply` do?
+	A: It creates or updates resources from a manifest.
+- Q: How do you expose a service?
+	A: Create a Service or Ingress depending on the need.

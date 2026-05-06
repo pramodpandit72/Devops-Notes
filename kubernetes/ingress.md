@@ -7,6 +7,8 @@ Ingress manages external access to services.
 - Requires an Ingress Controller
 - Supports host and path routing
 
-## Interview questions
-- What is an Ingress Controller?
-- When would you use Ingress over a LoadBalancer?
+## Interview questions with answers
+- Q: What is an Ingress Controller?
+	A: The component that implements Ingress rules.
+- Q: When would you use Ingress over a LoadBalancer?
+	A: When you want host/path routing and fewer load balancers.

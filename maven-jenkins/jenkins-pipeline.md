@@ -13,6 +13,8 @@ pipeline {
 }
 ```
 
-## Interview questions
-- What is a Jenkinsfile?
-- What is the difference between scripted and declarative pipeline?
+## Interview questions with answers
+- Q: What is a Jenkinsfile?
+  A: A file that defines a pipeline as code.
+- Q: What is the difference between scripted and declarative pipeline?
+  A: Declarative is structured and simpler; scripted is more flexible.

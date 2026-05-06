@@ -4,13 +4,15 @@
 Git tracks changes in code and helps teams collaborate.
 
 ## Important commands
-- `git init` start a repo
-- `git status` show changes
-- `git add .` stage changes
-- `git commit -m "msg"` commit changes
-- `git log --oneline` view history
-- `git diff` show changes
+- `git init` use: start a repo
+- `git status` use: show working tree status
+- `git add .` use: stage changes
+- `git commit -m "msg"` use: record a snapshot
+- `git log --oneline` use: view history
+- `git diff` use: show changes
 
-## Interview questions
-- What is the difference between staged and committed?
-- What does `git status` show?
+## Interview questions with answers
+- Q: What is the difference between staged and committed?
+	A: Staged changes are prepared; committed changes are saved to history.
+- Q: What does `git status` show?
+	A: It shows staged, unstaged, and untracked files.

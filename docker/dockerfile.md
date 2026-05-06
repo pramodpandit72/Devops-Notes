@@ -19,6 +19,8 @@ RUN pip install -r requirements.txt
 CMD ["python", "app.py"]
 ```
 
-## Interview questions
-- What is the difference between `CMD` and `ENTRYPOINT`?
-- Why use a slim base image?
+## Interview questions with answers
+- Q: What is the difference between `CMD` and `ENTRYPOINT`?
+	A: `CMD` sets defaults; `ENTRYPOINT` defines the main command.
+- Q: Why use a slim base image?
+	A: Smaller images are faster to pull and have fewer vulnerabilities.

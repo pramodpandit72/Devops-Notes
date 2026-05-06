@@ -14,6 +14,8 @@ server:
   port: 8080
 ```
 
-## Interview questions
-- What is YAML used for?
-- Why is indentation important?
+## Interview questions with answers
+- Q: What is YAML used for?
+  A: Human-readable configuration files.
+- Q: Why is indentation important?
+  A: YAML uses indentation to define structure and nesting.

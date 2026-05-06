@@ -7,8 +7,10 @@ EC2 provides virtual servers called instances.
 - Choose AMI, instance type, key pair, security group
 
 ## Important commands
-- `ssh -i key.pem user@ip` connect to an instance
+- `ssh -i key.pem user@ip` use: connect to an instance
 
-## Interview questions
-- What is a security group?
-- What is an AMI?
+## Interview questions with answers
+- Q: What is a security group?
+	A: A virtual firewall that controls inbound and outbound traffic.
+- Q: What is an AMI?
+	A: An Amazon Machine Image used as a template for instances.

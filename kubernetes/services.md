@@ -8,6 +8,8 @@ Services expose pods in a stable way.
 - NodePort
 - LoadBalancer
 
-## Interview questions
-- Why do we need services?
-- What is the difference between ClusterIP and NodePort?
+## Interview questions with answers
+- Q: Why do we need services?
+	A: Pods change IPs; services provide stable access.
+- Q: What is the difference between ClusterIP and NodePort?
+	A: ClusterIP is internal only; NodePort exposes a port on each node.

@@ -8,11 +8,13 @@ Maven is a build tool for Java projects.
 - Uses a standard lifecycle
 
 ## Important commands
-- `mvn -v` Maven version
-- `mvn clean` remove build output
-- `mvn test` run tests
-- `mvn package` build the artifact
+- `mvn -v` use: show Maven version
+- `mvn clean` use: remove build output
+- `mvn test` use: run tests
+- `mvn package` use: build the artifact
 
-## Interview questions
-- What is a `pom.xml`?
-- What does `mvn clean` do?
+## Interview questions with answers
+- Q: What is a `pom.xml`?
+	A: The Maven project file that defines dependencies and build steps.
+- Q: What does `mvn clean` do?
+	A: It deletes the build output folder.

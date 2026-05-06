@@ -8,6 +8,8 @@ IAM controls users, roles, and permissions in AWS.
 - Roles are used by services
 - Policies define permissions
 
-## Interview questions
-- What is the principle of least privilege?
-- What is the difference between user and role?
+## Interview questions with answers
+- Q: What is the principle of least privilege?
+	A: Give only the permissions needed to do the job.
+- Q: What is the difference between user and role?
+	A: Users are identities; roles are assumed by services or users.

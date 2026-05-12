@@ -14,3 +14,5 @@ AWS is a popular cloud platform with many services.
 	A: EC2 runs servers; S3 stores objects like files.
 - Q: What does IAM control?
 	A: Users, roles, and permissions in AWS.
+
+

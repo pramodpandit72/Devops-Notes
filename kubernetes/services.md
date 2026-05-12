@@ -1,12 +1,14 @@
 # Services
 
 ## Overview
-Services expose pods in a stable way.
+routes traffic inside cluster
+
+provides load balancing and service discovery within or outside the cluster.
 
 ## Types
-- ClusterIP
+- ClusterIP - Used for communication inside the cluster
 - NodePort
-- LoadBalancer
+- LoadBalancer - Creates an external load balancer (cloud providers), Used for public access
 
 ## Interview questions with answers
 - Q: Why do we need services?

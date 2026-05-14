@@ -20,7 +20,7 @@ Containerization vs VM, Docker architecture, Dockerfile, layers, multi-stage bui
 Maven POM.xml, lifecycle (clean,install, package), dependency mgmt, jenkinsfile, declarative pipeline, stages, webhooks
 
 ## Github Actions and GitLab CI/CD -  
-Workflow YAML, triggers, jibs, matrix builds, secrets mgmt, GitLab runners, .gitlab-ci.yml;
+Workflow YAML, triggers, jobs, matrix builds, secrets mgmt, GitLab runners, .gitlab-ci.yml;
 
 ## Nexus and sonarqube - 
 Artifact versoning, hosted/proxy, repos, Maven integration, Sonarqube static analysis, quality gates 

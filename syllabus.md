@@ -26,7 +26,7 @@ Workflow YAML, triggers, jobs, matrix builds, secrets mgmt, GitLab runners, .git
 Artifact versoning, hosted/proxy, repos, Maven integration, Sonarqube static analysis, quality gates 
 
 ## Python for devops automation: - 
-Python scripting basics, file handling, Logging, RESTAPIs, boto3 AWS SDK, scheduring automation
+Python scripting basics, file handling, Logging, RESTAPIs, boto3 AWS SDK, scheduling automation
 
 ## Terraform(infrastructure as Code) -
 Iac principles, HLC syntax, providers, resources, variables, outputs, state mgmt, remote state (s3), modules, workspace, what is state drift

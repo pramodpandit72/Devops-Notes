@@ -1,4 +1,4 @@
-# DevOps Notes
+## DevOps Notes
 
 Welcome! This repo is a plain-English DevOps study guide.
 

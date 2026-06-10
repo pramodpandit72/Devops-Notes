@@ -42,3 +42,5 @@ Prometheus metrics, Grafana dashboards, alert rules, ELK stack basics, CloudWatc
 
 ## AWS DevOps Services -
 CodePipeline CodeBuild, CodeDeploy, CodeCommit, ECR, ECS, Lambda, API Gateway, CloudFormation
+
+## GitOps - 

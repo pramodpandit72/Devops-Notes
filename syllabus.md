@@ -43,4 +43,4 @@ Prometheus metrics, Grafana dashboards, alert rules, ELK stack basics, CloudWatc
 ## AWS DevOps Services -
 CodePipeline CodeBuild, CodeDeploy, CodeCommit, ECR, ECS, Lambda, API Gateway, CloudFormation
 
-## GitOps - 
+## GitOps CI/CD Workflow - GitOps principles, ArgoCD basics, multi-env (dev/stage/prod), secrets mgmt, blue-green deployment
